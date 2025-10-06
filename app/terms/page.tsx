@@ -23,7 +23,7 @@ export default function TermsPage() {
               1. Introduction
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Welcome to Nexio Solutions. These Terms of Service ("Terms") govern your use of
+              Welcome to Nexio Solutions. These Terms of Service (&quot;Terms&quot;) govern your use of
               our development services and SaaS products. By engaging with our services, you
               agree to be bound by these Terms.
             </p>
@@ -86,7 +86,7 @@ export default function TermsPage() {
             </p>
             <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 mb-4 space-y-2">
               <li>Source code is delivered upon project completion and full payment</li>
-              <li>Code is provided "as is" with standard documentation</li>
+              <li>Code is provided &quot;as is&quot; with standard documentation</li>
               <li>Third-party libraries and dependencies remain under their respective licenses</li>
               <li>Ongoing maintenance and support are available under separate agreements</li>
             </ul>

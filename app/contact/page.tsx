@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import { Input, TextArea, Select } from "@/components/ui/Input";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
-import { ContactFormData, ProjectType, BudgetRange } from "@/types";
+import { ContactFormData } from "@/types";
 import { validateContactForm } from "@/lib/validations";
 
 export default function ContactPage() {
@@ -83,7 +83,7 @@ export default function ContactPage() {
       } else {
         setSubmitStatus("error");
       }
-    } catch (error) {
+    } catch {
       setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);
@@ -103,7 +103,7 @@ export default function ContactPage() {
             Get in Touch
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Ready to start your project? Let's discuss how we can help bring your
+            Ready to start your project? Let&apos;s discuss how we can help bring your
             vision to life.
           </p>
         </motion.div>
@@ -119,7 +119,7 @@ export default function ContactPage() {
               <CardHeader>
                 <CardTitle>Send us a Message</CardTitle>
                 <CardDescription>
-                  Fill out the form below and we'll get back to you within 24 hours.
+                  Fill out the form below and we&apos;ll get back to you within 24 hours.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -186,7 +186,7 @@ export default function ContactPage() {
 
                   {submitStatus === "success" && (
                     <div className="p-4 bg-green-100 dark:bg-green-900/20 border border-green-500 rounded-lg text-green-800 dark:text-green-300">
-                      Thank you! We've received your message and will get back to you soon.
+                      Thank you! We&apos;ve received your message and will get back to you soon.
                     </div>
                   )}
 

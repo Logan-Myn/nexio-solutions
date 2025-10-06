@@ -24,7 +24,7 @@ export const CTA = () => {
               Ready to Build Something Amazing?
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-              Let's discuss your project and turn your vision into reality.
+              Let&apos;s discuss your project and turn your vision into reality.
               Get in touch with us today for a free consultation.
             </p>
             <Link href="/contact">
